@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "run": [
+      {
+        "comments": "Installs the .NET Core SDK specified in the global.json file.",
+        "tool": "require-dotnetcoresdk"
+      },
+      {
+        "tool": "wsl-install",
+        "input": "https://aka.ms/wslubuntu2004",
+        "additionalOptions": "--wsl-version 1 --post-create-command some-post-create-command",
+        "comments": "Installs distro from target URL using Windows Subsystem for Linux."
+      }
+    ]
+  }
