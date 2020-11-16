@@ -8,7 +8,7 @@
       {
         "tool": "wsl-install",
         "input": "https://aka.ms/wslubuntu2004",
-        "additionalOptions": "--wsl-version 1 --post-create-command some-post-create-command",
+        "additionalOptions": "--wsl-version 2",
         "comments": "Installs distro from target URL using Windows Subsystem for Linux."
       }
     ]
